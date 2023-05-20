@@ -1,0 +1,174 @@
+{
+  "seller": [
+    {
+      "name": "Priyanka",
+      "email": "p@gmail.com",
+      "password": "p@123",
+      "id": 1
+    },
+    {
+      "name": "Pooja",
+      "email": "pooja@gmail.com",
+      "password": "pooja@123",
+      "id": 2
+    },
+    {
+      "name": "",
+      "password": "",
+      "email": "",
+      "id": 3
+    },
+    {
+      "name": "Poonam",
+      "password": "poonam@123",
+      "email": "poonam@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "priya",
+      "password": "priya@123",
+      "email": "priya@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "Amit",
+      "password": "",
+      "email": "",
+      "id": 6
+    },
+    {
+      "name": "Amit",
+      "password": "a@123",
+      "email": "a@gmail.com",
+      "id": 7
+    }
+  ],
+  "products": [
+    {
+      "name": "T Shirt for women",
+      "price": "699",
+      "oldPrice":"899",
+      "color": "cyan",
+      "category": "Cloth",
+      "description": "Material Composition: 95% Cotton, 5% Elastane; Sleeve Type: Half Sleeve; Material Type: Synthetic; Collar Style: Spread Collar; Sport Type: Outdoor Lifestyle",
+      "image": "https://m.media-amazon.com/images/I/61k669kSWrL._UY741_.jpg",
+      "id": 3
+    },
+    {
+      "name": "T Shirt for women",
+      "price": "599",
+      "oldPrice":"799",
+      "color": "Black",
+      "category": "Cloth",
+      "description": "Care Instructions: Dry Clean Only\nFit Type: Regular Fit\nStyle: T-Shirt || Length: Medium || Sleeves: Short Sleeve\nFabric: 100% Cotton\nPattern: Printed || Graphic Print\nFit Type: Regular Fit || Regular T-Shirt\nClouser Type: Pull On",
+      "image": "https://m.media-amazon.com/images/I/61AY8KCur1L._AC_UL320_.jpg",
+      "id": 4
+    },
+    {
+      "name": "T Shirt for women",
+      "price": "199",
+      "oldPrice":"400",
+      "color": "Red",
+      "category": "Cloth",
+      "description": "Care Instructions: Dry Clean Only\nFit Type: Regular Fit\nFit Type: Regular Fit\nStyle: T-Shirt || Length: Medium || Sleeves: Short Sleeve\nFabric: Pure Cotton\nPattern: Printed || Graphic\nClouser Type: Pull On",
+      "image": "https://m.media-amazon.com/images/I/51YsCg+w3WL._UY679_.jpg",
+      "id": 5
+    },
+    {
+      "name": "Shirt for women",
+      "price": "559",
+      "oldPrice":"800",
+      "color": "Pink",
+      "category": "Cloth",
+      "description": "Care Instructions: Machine Wash\nFit Type: Regular Fit\nCotton Twill High Quality Fabric\nFit Type: Slim Fit",
+      "image": "https://m.media-amazon.com/images/I/61LMjmxKDSL._AC_UL320_.jpg",
+      "id": 7
+    },
+    {
+      "name": "Redmi 12C",
+      "price": "8999",
+      "oldPrice":"1299",
+      "color": "Royalblue",
+      "category": "Mobile",
+      "description": "Processor: High performance MediaTek Helio G85,upto 2Ghz; Enhanced gaming with 1GHz GPU | 4+3GB(Virtual RAM) LPDDR4x\nCamera: 50MP f/1.8 AI Dual camera with Portrait mode & Night Mode | 5MP Selfie camera",
+      "image": "https://m.media-amazon.com/images/I/81itQPVn-GL._SL1500_.jpg",
+      "id": 8
+    },
+    {
+      "name": "Samsung Galaxy M04",
+      "price": "8499",
+      "oldPrice":"1300",
+      "color": "Darkblue",
+      "category": "Mobile",
+      "description": "Powerful MediaTek Helio P35 Octa Core 2.3GHz with Android 12,One UI Core 4.1",
+      "image": "https://m.media-amazon.com/images/I/81t6Av5DvXL._AC_UY218_.jpg",
+      "id": 9
+    },
+    {
+      "name": "Redmi 11 Prime 5G",
+      "price": "13999",
+      "oldPrice":"17999",
+      "color": "Silver",
+      "category": "Mobile",
+      "description": "Processor: MediaTek Dimensity 700 with 5G, 7nm Octa-core processor; Up to 2.2GHz",
+      "image": "https://m.media-amazon.com/images/I/41AueQepdTL._SX300_SY300_QL70_FMwebp_.jpg",
+      "id": 10
+    },
+    {
+      "name": "Samsung Galaxy M33 5G",
+      "price": "16999",
+      "oldPrice":"18000",
+      "color": "Darkslategray",
+      "category": "Mobile",
+      "description": "Versatile Quad camera setup-50MP (F1.8)+ 5MP\nLatest Android v12.0, One UI 4 operating system.",
+      "image": "https://m.media-amazon.com/images/I/419KF2t1nML._SX300_SY300_QL70_FMwebp_.jpg",
+      "id": 11
+    },
+    {
+      "name": "Fossil Analog Watch",
+      "price": "13495",
+      "oldPrice":"19000",
+      "color": "Silver",
+      "category": "watch",
+      "description": "End of season style model\nDial Color: White, Case Shape: Round\nWatch Movement Type: Quartz, Watch Display Type: Analog",
+      "image": "https://m.media-amazon.com/images/I/81q-86EVPBL._UX466_.jpg",
+      "id": 12
+    },
+    {
+      "name": "Shocknshop Analog Watch",
+      "price": "15999",
+      "oldPrice":"20000",
+      "color": "Black",
+      "category": "Watch",
+      "description": "Dial Color: Black, Case Shape: Round, Case Material: Stainless Steel\nCase Diameter: 45 millimeters, Recommended for customers looking for a Large dial sized watches",
+      "image": "https://m.media-amazon.com/images/I/816lM3J3qZL._UX466_.jpg",
+      "id": 13
+    }
+  ],
+  "users": [
+    {
+      "name": "priyanka",
+      "email": "VarmaPriyanka1998@gmail.com",
+      "password": "vhjh",
+      "id": 10
+    },
+    {
+      "name": "Amit",
+      "email": "amit@gmail.com",
+      "password": "amit@123",
+      "id": 11
+    },
+    {
+      "name": "Anjali",
+      "email": "anjali@gmail.com",
+      "password": "anjali@123",
+      "id": 12
+    },
+    {
+      "name": "priyanka",
+      "email": "varmapriya1998@gmail.com",
+      "password": "p@123",
+      "id": 13
+    }
+  ]
+}

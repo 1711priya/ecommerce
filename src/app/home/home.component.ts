@@ -15,6 +15,8 @@ export class HomeComponent implements OnInit
   popularProducts:undefined|product[];
   trendyProducts:undefined|product[];
 
+  //oldPrice: number[] = [];
+ 
 
   constructor(private product:ProductService){
    
@@ -25,11 +27,20 @@ export class HomeComponent implements OnInit
     this.product.popularProducts().subscribe((data)=>{
       console.log("popular prod",data);
       this.popularProducts=data;
+
+      // for(let i=0;i<this.popularProducts.length;i++){
+      //   this.oldPrice[i]=this.popularProducts[i]['price'];
+      //   this.oldPrice[i]=this.oldPrice[i]+200;
+      //   // console.log("old price", this.popularProducts[i]['price']);
+      //   console.log("old price array:" ,this.oldPrice[i]);       
+        
+      // }
     });
 
     this.product.trendyProducts().subscribe((data)=>{
       this.trendyProducts=data;
     });
+
    }
  
 }

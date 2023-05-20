@@ -1,10 +1,14 @@
 h1 a{
-  color:rgb(53, 53, 112);
+  color:white !important;
   text-decoration: none;
 }
 .nav{
+  margin-left: -150px;
+  margin-right: -65px;
   display:flex;
   justify-content:space-between;
+  background-color: #436E9A;
+  height:70px !important
 }
 .nav h1{
   color:rgb(53, 53, 112);
@@ -47,8 +51,9 @@ color:rgb(53, 53, 112);
   border-left:0px;
 }
 .nav ul a{
-  color:blue;
+  color:white;
   text-decoration: none;
+  cursor: pointer;
 }
 h1 a {
   color:blue;
