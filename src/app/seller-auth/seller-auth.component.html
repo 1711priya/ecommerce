@@ -3,8 +3,8 @@
         <h1>Seller SignUp</h1>
         <form #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.value)" class="common-form">
             <input class="form-input" type="text" placeholder="Enter name" name="name" ngModel>
-            <input class="form-input" type="password" placeholder="Enter password" name="password" ngModel>
             <input class="form-input" type="email" placeholder="Enter email" name="email" ngModel>
+            <input class="form-input" type="password" placeholder="Enter password" name="password" ngModel>
             <button class="form-button">Signup</button>
             <a class="auth-toggle-link" (click)="openLogin()">Already have account?Login</a>
         </form>
@@ -16,11 +16,17 @@
         <h1>Seller Login</h1>
         <p class="error-p">{{authErr}}</p>
         <form #sellerLogin="ngForm" (ngSubmit)="login(sellerLogin.value)" class="common-form">
-            <input class="form-input" type="email" placeholder="Enter email" name="email" ngModel>
-            <input class="form-input" type="password" placeholder="Enter password" name="password" ngModel>
-            <button class="form-button">Login</button>
-            <a class="auth-toggle-link" (click)="openSignUp()">Don't have an account? Signup</a>
+            <input class="form-input" type="email" placeholder="Enter email" name="email" ngModel
+            #email="ngModel" required minlength="5" maxlength="20">
+            <p class="invalid-input"><span *ngIf="email.touched && email.invalid">Please enter valid email</span></p>
 
+
+            <input class="form-input" type="password" placeholder="Enter password" name="password" ngModel
+            #password="ngModel" required minlength="5" maxlength="20">
+            <p class="invalid-input"><span *ngIf="password.touched && password.invalid">Please enter valid password</span></p>
+
+            <button class="form-button" [disabled]="sellerLogin.invalid">Login</button>
+            <a class="auth-toggle-link" (click)="openSignUp()">Don't have an account? Signup</a>
         </form>
     </div>
 </div>

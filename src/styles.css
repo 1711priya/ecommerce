@@ -51,3 +51,12 @@ body{
 button:disabled{
   cursor:not-allowed;
 }
+.nav{
+  margin-left: -150px;
+  margin-right: -65px;
+  display:flex;
+  justify-content:space-between;
+  background-color: #436E9A;
+  height:70px !important;
+ 
+}

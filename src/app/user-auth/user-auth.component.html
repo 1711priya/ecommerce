@@ -22,7 +22,7 @@
             <p class="invalid-input"><span *ngIf="email.touched && email.invalid">Please enter valid email</span></p>
 
             <input type="password" class="form-input" placeholder="Enter password" name="password" ngModel 
-            #password="ngModel" minlength="5" maxlength="12" required>
+            #password="ngModel" minlength="5" maxlength="20" required>
             <p class="invalid-input"><span *ngIf="password.touched && password.invalid">Please enter password</span></p>
 
             <button [disabled]="userLogin.invalid" class="form-button">Login </button>

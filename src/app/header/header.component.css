@@ -1,15 +1,9 @@
 h1 a{
   color:white !important;
   text-decoration: none;
+  
 }
-.nav{
-  margin-left: -150px;
-  margin-right: -65px;
-  display:flex;
-  justify-content:space-between;
-  background-color: #436E9A;
-  height:70px !important
-}
+
 .nav h1{
   color:rgb(53, 53, 112);
   margin: 0;
